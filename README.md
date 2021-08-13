@@ -41,6 +41,7 @@ Your finished project must include all of the following requirements:
 - [ ] Render your characters to the DOM:
 
   1. Build a React component named 'Character' to render an individual character.
+
   1. Map over the list in state, and for each character render a Character to the page.
   1. Each rendered character must display its name in the DOM (e.g. "Luke Skywalker").
   1. The character's name can't be hard-coded into the HTML. This data must be obtained from the API.
@@ -81,6 +82,11 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+---React will detect that the state of the app has changed. Then it will update the virtual DOM, taking note of which nodes have changed due to the state changes. Finally, once it knows which nodes have changed, it will update only those specific nodes on the actual DOM. This takes a lot of pressure off of our browsers and it's why React is as powerful as it is.--- 
+
 1. Describe component state.
+-- describe a discrete chunk of your site like a div, or a header, or a footer, 
 1. Describe props.
+-- it allows us to pass objects down to the children. keep the key and value simple in order to understand the code better. 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+-- A side effect is anything that affects something outside the scope of the function being executed. Fetching data from an API, timers, logging, and manually manipulating the DOM are all examples of side effects.

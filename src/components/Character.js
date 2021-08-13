@@ -1,17 +1,17 @@
-// Write your Character component here
-import React from 'react';
+// // Write your Character component here
+// import React from 'react';
 
-import Characters from './character';
+// import Characters from './character';
 
-export default function Characters(props) {
-    const { characters } = props
+// export default function Characters(props) {
+//     const { characters } = props
 
-    return (
-        <div className='contianer'> 
+//     return (
+//         <div className='contianer'> 
 
-{ characters.map(character => 
-<Character character={character} key={character.id}/>
-            )}
-        </div>
-    )
-}
+// { characters.map(character => 
+// <Character character={character} key={character.id}/>
+//             )}
+//         </div>
+//     )
+// }
